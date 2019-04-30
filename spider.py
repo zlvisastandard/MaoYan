@@ -46,3 +46,4 @@ if __name__ == '__main__':
     pool.map(main, [i*10 for i in range(10)])
     pool.close()
     pool.join()
+    print("hello world")
